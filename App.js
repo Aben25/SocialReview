@@ -1,11 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { withAuthenticator } from "aws-amplify-react-native";
+import { Amplify } from "aws-amplify";
+// Get the aws resources configuration parameters
+import awsconfig from "./aws-exports"; // if you are using Amplify CLI
 
-export default function App() {
+Amplify.configure(awsconfig);
+ function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Open up App.js to start working on your app!1</Text>
       <StatusBar style="auto" />
+      
     </View>
   );
 }
@@ -18,3 +24,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+export default withAuthenticator(App);

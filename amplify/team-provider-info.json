@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-screeneye-staging-203654-authRole",
+      "UnauthRoleArn": "arn:aws:iam::174024513480:role/amplify-screeneye-staging-203654-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::174024513480:role/amplify-screeneye-staging-203654-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-screeneye-staging-203654-deployment",
+      "UnauthRoleName": "amplify-screeneye-staging-203654-unauthRole",
+      "StackName": "amplify-screeneye-staging-203654",
+      "StackId": "arn:aws:cloudformation:us-west-2:174024513480:stack/amplify-screeneye-staging-203654/60c7e680-7d81-11ed-9977-06e58235caa5",
+      "AmplifyAppId": "d19blnsfofk9a7"
+    },
+    "categories": {
+      "auth": {
+        "ScreenEye": {}
+      }
+    }
+  }
+}
